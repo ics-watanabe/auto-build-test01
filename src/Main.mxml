@@ -19,6 +19,6 @@
 			}
 		]]>
 	</fx:Script>
-	
+
 	<mx:UIComponent id="container" />
 </s:Application>
