@@ -7,6 +7,7 @@
 			   height="540">
 	<fx:Script>
 		<![CDATA[
+			import mx.controls.Alert;
 			import mx.events.FlexEvent;
 			
 			private function creationCompleteHandler(event:FlexEvent):void
@@ -16,6 +17,8 @@
 				tf.text = "HelloWorld!!";
 				tf.autoSize = TextFieldAutoSize.LEFT;
 				container.addChild(tf);
+				
+				Alert.show("自動でビルドされました。");
 			}
 		]]>
 	</fx:Script>

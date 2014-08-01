@@ -1,8 +1,6 @@
-package project
+package 
 {
 	import flash.display.Sprite;
-	
-	import mx.controls.Alert;
 
 	/**
 	 * Main はアプリケーションのメインクラスです。
@@ -26,7 +24,7 @@ package project
 
 		public function Main()
 		{
-			Alert.show("テストです。");
+			trace("★");
 		}
 
 	}
