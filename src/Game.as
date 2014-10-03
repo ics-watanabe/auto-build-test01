@@ -33,7 +33,7 @@ package
 		private static const WALL_HEIGHT:Number = 1;
 		private static const WALL_LENGTH:Number = 175;
 		/** パーティクル(円)の数 */
-		private static const PARTICLES_NUM:Number = 4;
+		private static const PARTICLES_NUM:Number = 12;
 		/** Box2Dの縮尺 */
 		private static const SCALE:Number = 1 / 30;
 
